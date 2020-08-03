@@ -166,3 +166,9 @@ struct EmojiArtDocumentView: View {
     
     private let defaultEmojiSize: CGFloat = 40
 }
+
+struct EmojiArtDocumentView_Previews: PreviewProvider {
+    static var previews: some View {
+        EmojiArtDocumentView(document: EmojiArtDocument())
+    }
+}

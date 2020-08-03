@@ -23,6 +23,10 @@
 		4F910BFC24D2F90C0001BE44 /* Spinning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F910BFB24D2F90C0001BE44 /* Spinning.swift */; };
 		4F910C0024D42AA40001BE44 /* PaletteChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F910BFF24D42AA40001BE44 /* PaletteChooser.swift */; };
 		4F910C0224D42DAA0001BE44 /* EmojiArtDocumentPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F910C0124D42DAA0001BE44 /* EmojiArtDocumentPalette.swift */; };
+		4F91C1D524D84EA10058E737 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91C1D324D84EA00058E737 /* Grid.swift */; };
+		4F91C1D624D84EA10058E737 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91C1D424D84EA00058E737 /* GridLayout.swift */; };
+		4F91C1D824D860D90058E737 /* EmojiArtDocumentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91C1D724D860D90058E737 /* EmojiArtDocumentStore.swift */; };
+		4F91C1DA24D864BA0058E737 /* EmojiArtDocumentChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91C1D924D864BA0058E737 /* EmojiArtDocumentChooser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,10 @@
 		4F910BFB24D2F90C0001BE44 /* Spinning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinning.swift; sourceTree = "<group>"; };
 		4F910BFF24D42AA40001BE44 /* PaletteChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooser.swift; sourceTree = "<group>"; };
 		4F910C0124D42DAA0001BE44 /* EmojiArtDocumentPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentPalette.swift; sourceTree = "<group>"; };
+		4F91C1D324D84EA00058E737 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		4F91C1D424D84EA00058E737 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		4F91C1D724D860D90058E737 /* EmojiArtDocumentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentStore.swift; sourceTree = "<group>"; };
+		4F91C1D924D864BA0058E737 /* EmojiArtDocumentChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentChooser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +137,10 @@
 				4F910BFB24D2F90C0001BE44 /* Spinning.swift */,
 				4F910BF524D1805C0001BE44 /* OptionalImage.swift */,
 				4F5CB02C24CDF1E100CEFAC4 /* Assets.xcassets */,
+				4F91C1D724D860D90058E737 /* EmojiArtDocumentStore.swift */,
+				4F91C1D924D864BA0058E737 /* EmojiArtDocumentChooser.swift */,
+				4F91C1D324D84EA00058E737 /* Grid.swift */,
+				4F91C1D424D84EA00058E737 /* GridLayout.swift */,
 				4F5CB03124CDF1E100CEFAC4 /* LaunchScreen.storyboard */,
 				4F5CB03424CDF1E100CEFAC4 /* Info.plist */,
 				4F5CB02E24CDF1E100CEFAC4 /* Preview Content */,
@@ -299,11 +311,15 @@
 				4F5CB05C24CF135C00CEFAC4 /* EmojiArtExtensions.swift in Sources */,
 				4F5CB05A24CECC5500CEFAC4 /* EmojiArt.swift in Sources */,
 				4F5CB02B24CDF1DC00CEFAC4 /* EmojiArtDocumentView.swift in Sources */,
+				4F91C1D624D84EA10058E737 /* GridLayout.swift in Sources */,
 				4F910BF624D1805C0001BE44 /* OptionalImage.swift in Sources */,
 				4F910BFC24D2F90C0001BE44 /* Spinning.swift in Sources */,
+				4F91C1D824D860D90058E737 /* EmojiArtDocumentStore.swift in Sources */,
 				4F910BF824D1A34F0001BE44 /* AnimatableSystemFontModifier.swift in Sources */,
+				4F91C1DA24D864BA0058E737 /* EmojiArtDocumentChooser.swift in Sources */,
 				4F5CB05724CDF24800CEFAC4 /* EmojiArtDocument.swift in Sources */,
 				4F910C0024D42AA40001BE44 /* PaletteChooser.swift in Sources */,
+				4F91C1D524D84EA10058E737 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
